@@ -1,2 +1,2 @@
-nose
-requests<=2.4.3
+requests
+urllib3

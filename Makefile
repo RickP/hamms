@@ -14,7 +14,7 @@ test-install:
 	. venv/bin/activate; pip install --requirement test-requirements.txt
 
 test:
-	. venv/bin/activate; nosetests tests
+	. venv/bin/activate; python -m unittest tests/test*
 
 serve: 
 	. venv/bin/activate; python -m hamms

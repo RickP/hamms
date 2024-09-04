@@ -14,5 +14,5 @@ if __name__ == "__main__":
     hs = HammsServer()
     hs.start()
     time.sleep(5)
-    print "stopping"
+    print("stopping")
     hs.stop()
